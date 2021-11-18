@@ -46,7 +46,7 @@ CUSTOM_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-
+    'crispy_forms',
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + CUSTOM_APPS + THIRD_PARTY_APPS
@@ -126,3 +126,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# email configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'nirvayachaudhary6145ns@gmail.com'
+EMAIL_HOST_PASSWORD = 'caliana789'
+EMAIL_USE_TLS = True
