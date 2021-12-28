@@ -43,6 +43,7 @@ CUSTOM_APPS = [
     'category',
     'store',
     'cart',
+    'orders',
 ]
 
 THIRD_PARTY_APPS = [
