@@ -5,7 +5,7 @@ from .models import *
 from category.models import Category
 from cart.models import CartItem
 from cart.views import _cart_id
-from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+from django.core.paginator import Paginator
 from django.db.models import Q
 
 # Create your views here.
