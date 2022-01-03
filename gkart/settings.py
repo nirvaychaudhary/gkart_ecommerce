@@ -31,18 +31,21 @@ ALLOWED_HOSTS = []
 # Application definition
 
 DEFAULT_APPS = [
+    'adminlteui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'treebeard',
 ]
 CUSTOM_APPS = [
     'accounts',
     'category',
     'store',
     'cart',
+    'orders',
 ]
 
 THIRD_PARTY_APPS = [
